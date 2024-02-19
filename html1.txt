@@ -1,0 +1,40 @@
+1) Basic: 
+<h1>Hi</h1>
+
+2) Heading:
+<h1> Hi </h1>
+<h2> How are you doing? </h2>
+
+3) Para: 
+<p> I am Akshen a Computer Engineer Student </p>
+
+4) list:
+<li>pizza</li>
+<li>burger</li>
+
+5) Unordered list:
+<h1>Things I like</h1>
+
+<ul> -- (bullet points)
+  <li>Ice cream</li> -- (inside bullet point)
+  <li>Chocolate</li>
+  <li>Movies</li>
+</ul>
+
+6) Ordered list:
+<h1>Greek Alphabet</h1>
+
+<ol> -- numberwise points
+  <li>Alpha</li>
+  <li>Beta</li>
+  <li>Gamma</li>
+</ol>
+
+6) Line break (br):
+<h2>Address written with br tags in a p tag</h2>
+<p>
+  Office #803, 8th Floor,<br>
+  World Trade Center, Tower 2,<br>
+  Kharadi, Pune,<br>
+  Maharashtra
+</p>
