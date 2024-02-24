@@ -1,1 +1,14 @@
+1) The <img> element is used to display an image. Let us try to display an image:
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSynzR8yXOh5svmSjLAK0j3OQDLZd7SK4h2suOKcmkaJg&s">
 
+2) alt in img Tag:
+The img tag has something important called alt. 
+We use alt in an img tag to describe the image. This is particularly useful in situations when our image is not properly loaded on the screen.
+<img src="https://ucarecdn.com/b9721aee-1c09-4d0c-9bcb-8969afe2751e/-/resize/400x/" alt="The view from a balcony">
+<img src="broken-link.jpg" alt="The view from a plane">
+
+3) Links
+The <a> element is used to create a link to a web page. Here are some examples:
+<p>
+  <a href="https://en.wikipedia.org/wiki/Giant_panda">Giant Pandas are interesting!</a>
+</p>
