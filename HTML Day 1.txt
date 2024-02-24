@@ -13,8 +13,6 @@
 <li>burger</li>
 
 5) Unordered list:
-<h1>Things I like</h1>
-
 <ul> -- (bullet points)
   <li>Ice cream</li> -- (inside bullet point)
   <li>Chocolate</li>
@@ -22,15 +20,28 @@
 </ul>
 
 6) Ordered list:
-<h1>Greek Alphabet</h1>
-
 <ol> -- numberwise points
   <li>Alpha</li>
   <li>Beta</li>
   <li>Gamma</li>
 </ol>
 
-6) Line break (br):
+7)
+<h1>Menu</h1>
+<ul>
+  <li><h3>Home</h3></li>
+  <li><h3>About</h3></li>
+  <li><h3>Courses</h3></li>
+</ul>
+
+<h2>Ice cream Flavors</h2>
+<ol>
+  <li><p>Vanilla</p></li>
+  <li><p>Chocolate</p></li>
+  <li><p>Strawberry</p></li>
+</ol>
+
+8) Line break (br):
 <h2>Address written with br tags in a p tag</h2>
 <p>
   Office #803, 8th Floor,<br>
