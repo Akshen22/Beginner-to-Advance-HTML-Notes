@@ -12,3 +12,16 @@ The <a> element is used to create a link to a web page. Here are some examples:
 <p>
   <a href="https://en.wikipedia.org/wiki/Giant_panda">Giant Pandas are interesting!</a>
 </p>
+
+4) Creating links with HTML Elements
+<!-- Using Text as a Link -->
+<a href="https://www.bigbinary.com">Click here to visit Bigbinary website</a>
+<!-- Using p tag as a link -->
+<a href="https://bigbinaryacademy.com/">
+  <p>Click here to go to BB Academy website</p>
+</a>
+<!-- Using Images as a Link -->
+<p> Click on the below Gift Image to see more Gift photos at Unsplash</p>
+<a href="https://unsplash.com/s/photos/gift">
+  <img src="https://ucarecdn.com/15521838-3dcc-4ed0-b066-6f7e2cd57f01/">
+</a>
