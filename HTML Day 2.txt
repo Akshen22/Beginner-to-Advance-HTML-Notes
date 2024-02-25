@@ -25,3 +25,15 @@ The <a> element is used to create a link to a web page. Here are some examples:
 <a href="https://unsplash.com/s/photos/gift">
   <img src="https://ucarecdn.com/15521838-3dcc-4ed0-b066-6f7e2cd57f01/">
 </a>
+
+5) Attributes
+In the code example given below, we add this attribute to an <h1> element with the value The 
+web loves HTML. So, take your mouse cursor over the heading text in the result, and within a
+second, you'll see the title attribute in action.
+
+<h1 title="The web loves HTML">On the internet, HTML is everywhere</h1>
+Output: 
+On the internet, HTML is everywhere
+If you take the cursor on the above output will see that "the web loves HTML"
+
+Similarly, for image: src is the attribute, and for linking (a) it is href
