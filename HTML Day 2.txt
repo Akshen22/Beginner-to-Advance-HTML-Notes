@@ -36,4 +36,4 @@ Output:
 On the internet, HTML is everywhere
 If you take the cursor on the above output will see that "the web loves HTML"
 
-Similarly, for image: src is the attribute, and for linking (a) it is href
+Similarly, for image: src, alt is the attribute, and for linking (a) it is href
