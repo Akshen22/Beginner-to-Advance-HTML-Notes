@@ -37,3 +37,27 @@ On the internet, HTML is everywhere
 If you take the cursor on the above output will see that "the web loves HTML"
 
 Similarly, for image: src, alt is the attribute, and for linking (a) it is href
+
+6) class & id attributes: (specifically for CSS & JavaScript)
+<p class="countries" id="malaysia">
+  Malaysia
+</p>
+
+`<p>`: This is an HTML tag used to define a paragraph element. It is a block-level element, meaning it starts on a new line and takes up the full width available.
+
+`class="countries"`: This is the class attribute of the `<p>` tag. It assigns the class name 
+"countries" to the paragraph element. Classes are used to apply CSS styles or JavaScript 
+behaviors to elements. In this case, the class "countries" might be used to style all 
+paragraphs related to countries in a specific way.
+
+`id="malaysia"`: This is the id attribute of the `<p>` tag. It assigns the id "malaysia" to 
+the paragraph element. IDs are used to uniquely identify elements within an HTML document. 
+Unlike classes, which can be used multiple times, IDs should be unique within a document.
+
+`Malaysia`: This is the text content of the paragraph element. It simply displays the text 
+"Malaysia" on the webpage.
+
+In summary, `<p class="countries" id="malaysia">Malaysia</p>` creates a paragraph element with 
+the class "countries" and the id "malaysia", displaying the text "Malaysia" as the content of 
+the paragraph. This element can be styled using CSS or targeted with JavaScript using its class 
+or id.
