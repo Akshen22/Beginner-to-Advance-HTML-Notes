@@ -13,7 +13,7 @@ code a good structure.
 6) <caption>Students</caption>
 
 <table>
-<caption>Students</caption>
+ <caption>Students</caption>
  <thead>
   <tr>
     <th>Name</th>
