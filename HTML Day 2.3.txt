@@ -1,1 +1,24 @@
+1) HTMLElement.dataset
+The dataset is a read-only property that allows us to set and get custom data attributes, data-*, 
+on our HTML elements.
+All dataset attribute names should begin with data-.
+Let us have a look at an example of adding a custom data attribute in HTML:
 
+<h1 id="fruit" data-fruit-name="orange">Orange</h1>
+
+2) 
+<h1 id="order-number" data-order-number="1">Order No: 1</h1>
+<p id="order-item" data-item-code="5">Milk Tea</p>
+
+3) Void Elements:
+<br>
+<hr>
+There's no closing tag: no </br>, </hr>, like: <h1></h1>
+
+Example:
+<h1>Void Elements Example</h1>
+<p>Some text here.</p>
+<br>
+<hr>
+<img src="image.jpg" alt="Image">
+<input type="text" placeholder="Enter your name">
