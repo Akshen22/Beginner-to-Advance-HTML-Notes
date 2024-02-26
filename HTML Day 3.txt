@@ -21,7 +21,7 @@ code a good structure.
     <th>Gender</th>
   </tr>
  </thead>
-
+ 
   <tr>
     <td>Oliver</td>
     <td>25</td>
