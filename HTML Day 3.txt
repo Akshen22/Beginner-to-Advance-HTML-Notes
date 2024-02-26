@@ -11,6 +11,7 @@ It doesn't change anything in the table, but it can contain the whole header row
 code a good structure.
 5) <th> in place of <td> for making a header row.
 6) <caption>Students</caption>
+7) <tfoot>
 
 <table>
  <caption>Students</caption>
