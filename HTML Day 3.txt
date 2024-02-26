@@ -10,8 +10,7 @@ The following elements are used to arrange the data within a <table> element:
 It doesn't change anything in the table, but it can contain the whole header row and gives your 
 code a good structure.
 5) <th> in place of <td> for making a header row.
-6) <caption>Students</caption>
-7) <tfoot>
+6) <tfoot>
 
 <table>
  <caption>Students</caption>
