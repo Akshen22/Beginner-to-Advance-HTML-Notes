@@ -1,4 +1,4 @@
-1) Table
+Table:
 The <table> element is used to display data in a table consisting of rows and columns.
 
 The following elements are used to arrange the data within a <table> element:
@@ -6,9 +6,10 @@ The following elements are used to arrange the data within a <table> element:
 <tr> - It is used to add a table row.
 <td> - It is used to add information in a table row.
 <th> in place of <td> for making a header row.
+<caption>Students</caption>
 
 <table>
-
+<caption>Students</caption>
   <tr>
     <th>Name</th>
     <th>Age</th>
@@ -28,4 +29,3 @@ The following elements are used to arrange the data within a <table> element:
   </tr>
 </table>
 
-2) 
