@@ -22,3 +22,7 @@ Example:
 <hr>
 <img src="image.jpg" alt="Image">
 <input type="text" placeholder="Enter your name">
+
+4) Button Element
+The <button> element creates a clickable button.
+<button type="button">I am clickable!</button>
