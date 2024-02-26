@@ -3,18 +3,24 @@ The <table> element is used to display data in a table consisting of rows and co
 
 The following elements are used to arrange the data within a <table> element:
 
-<tr> - It is used to add a table row.
-<td> - It is used to add information in a table row.
-<th> in place of <td> for making a header row.
-<caption>Students</caption>
+1) <tr> - It is used to add a table row.
+2) <td> - It is used to add information in a table row.
+3) <caption>Students</caption>
+4) The <thead> element is used to organize the header row of a table.
+It doesn't change anything in the table, but it can contain the whole header row and gives your 
+code a good structure.
+5) <th> in place of <td> for making a header row.
+6) <caption>Students</caption>
 
 <table>
 <caption>Students</caption>
+<thead>
   <tr>
     <th>Name</th>
     <th>Age</th>
     <th>Gender</th>
   </tr>
+</thead>
 
   <tr>
     <td>Oliver</td>
