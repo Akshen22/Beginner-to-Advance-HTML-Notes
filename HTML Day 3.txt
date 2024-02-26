@@ -14,13 +14,13 @@ code a good structure.
 
 <table>
 <caption>Students</caption>
-<thead>
+ <thead>
   <tr>
     <th>Name</th>
     <th>Age</th>
     <th>Gender</th>
   </tr>
-</thead>
+ </thead>
 
   <tr>
     <td>Oliver</td>
