@@ -1,5 +1,7 @@
 1) Form Element
-An HTML form is used to collect information that the user submits. The HTML <form> element can nest other elements like input, label, textarea, button, etc. inside it to represent different parts of a form.
+An HTML form is used to collect information that the user submits. 
+The HTML <form> element can nest other elements like input, label, textarea, button, etc. 
+inside it to represent different parts of a form.
 Example:
 <form>
   <input placeholder="Enter your name here">
@@ -7,7 +9,8 @@ Example:
 </form>
 
 2) Label Element
-The <label> element puts a label on other form elements. In the example given below, <label> helps the user understand the purpose of the <input> element.
+The <label> element puts a label on other form elements. In the example given below, <label> 
+helps the user understand the purpose of the <input> element.
 Example:
 <form>
   <label>Name:</label>
@@ -15,7 +18,8 @@ Example:
 </form>
 
 3) Placeholder
-Placeholder text is the text that appears in an input field before the user clicks it and starts typing. Placeholder text disappears as soon as the user starts typing.
+Placeholder text is the text that appears in an input field before the user clicks it and 
+starts typing. Placeholder text disappears as soon as the user starts typing.
 Example:
 <form>
   <label>Full Name:</label>
