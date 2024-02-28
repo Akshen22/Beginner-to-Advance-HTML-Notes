@@ -56,4 +56,17 @@ Example:
   </textarea>
 </form>
 
-6) 
+6) Select Element
+For creating drop-down lists in our forms, we use the <select> element.
+Example:
+<form>
+  <label>Choose a fruit:</label>
+  <select>
+    <option value="apple">Apple 🍎</option>
+    <option value="orange">Orange 🍊</option>
+    <option value="mango">Mango 🥭</option>
+    <option value="banana">Banana 🍌</option>
+  </select>
+</form>
+
+7) 
