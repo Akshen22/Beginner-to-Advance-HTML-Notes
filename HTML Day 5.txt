@@ -40,4 +40,17 @@ Example:
   <input placeholder="1234 5678 9012 3456"><br>
 </form>
 
-5) 
+5) Textarea Element
+The <textarea> element is for submitting large textual content.
+To control its size, the rows and cols attributes are utilized.
+Example:
+<form>
+  <label>Your Review:</label>
+  <br>
+  <textarea
+    rows="3"
+    cols="30"
+  >Add detailed review here</textarea>
+</form>
+
+6) 
