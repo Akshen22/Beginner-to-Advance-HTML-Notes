@@ -68,5 +68,3 @@ Example:
     <option value="banana">Banana 🍌</option>
   </select>
 </form>
-
-7) 
