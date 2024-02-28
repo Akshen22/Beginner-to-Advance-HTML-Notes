@@ -6,4 +6,10 @@ Example:
   <button type="button">Submit</button>
 </form>
 
-2) 
+2) Label Element
+The <label> element puts a label on other form elements. In the example given below, <label> helps the user understand the purpose of the <input> element.
+Example:
+<form>
+  <label>Name:</label>
+  <input>
+</form>
