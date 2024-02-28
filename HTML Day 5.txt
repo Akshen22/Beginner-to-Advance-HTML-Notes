@@ -13,3 +13,13 @@ Example:
   <label>Name:</label>
   <input>
 </form>
+
+3) Placeholder
+Placeholder text is the text that appears in an input field before the user clicks it and starts typing. Placeholder text disappears as soon as the user starts typing.
+Example:
+<form>
+  <label>Full Name:</label>
+  <input placeholder="Sam Smith">
+</form>
+
+4) 
