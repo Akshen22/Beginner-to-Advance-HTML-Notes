@@ -6,4 +6,14 @@ Example:
   <input type="text" placeholder="Chinua Achebe">
 </form>
 
-2) 
+2) Input Type - Password
+<input type="password"> is used for submitting a password. For security purposes, it hides the 
+text entered by the user by displaying symbols like the dot in place of each character entered.
+Example:
+<form>
+  <label>Email:</label>
+  <input type="text" placeholder="smith@example.com">
+  <br>
+  <label>Password:</label>
+  <input type="password" >
+</form>
