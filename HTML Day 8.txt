@@ -29,7 +29,8 @@ Example:
 </form>
 
 The value attribute is important for the website to analyze the choice made by the user. 
-Also, it is required to have the name attribute be the same for all the radio input types for them to be treated as a group.
+Also, it is required to have the name attribute be the same for all the radio input types for 
+them to be treated as a group.
 
 3) Input Type - Checkbox
 <input type="checkbox"> allows the user to select one or more options from a list of choices.
@@ -50,3 +51,23 @@ Example:
   <label>Orange</label>
   <br>
 </form>
+
+4) Input Type - Button
+<input type="button"> creates a clickable button.
+Example:
+<form>
+  <input type="button" value="Click Me!">
+</form>
+
+5) Input Type - Email
+The <input type="email"> defines a field for an e-mail address.
+Let us have a look at an example:
+<form>
+  <label>Enter your email:</label>
+  <input type="email" value="smith@example.com"><br>
+  <button>Submit</button><br>
+</form>
+This input type has an in-built validation. This prevents users from adding values that are not 
+in correct email format.
+For e.g: Correct email format: abc@example.com Incorrect email format: is hello.com
+Input
