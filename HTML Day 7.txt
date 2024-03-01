@@ -1,1 +1,9 @@
+1) Input Type - Text:
+<input type="text"> is used for submitting a single line of text.
+Example:
+<form>
+  <label>Name:</label>
+  <input type="text" placeholder="Chinua Achebe">
+</form>
 
+2) 
