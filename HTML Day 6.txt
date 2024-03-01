@@ -38,4 +38,29 @@ Example:
   <button type="submit">Submit</button>
 </form>
 
-3) 
+3) Fieldset Element
+The <fieldset> element is used to group related form elements.
+Example:
+<form>
+  <label>First Name:</label>
+  <input placeholder="Sam" >
+
+  <label>Last Name:</label>
+  <input placeholder="Smith" >
+
+  <fieldset disabled>
+    <label>City:</label>
+    <br>
+    <input placeholder="Pune" >
+    <br>
+
+    <label>State:</label>
+    <br>
+    <input placeholder="Maharashtra" >
+    <br>
+
+    <label>Country:</label>
+    <br>
+    <input placeholder="India" >
+  </fieldset>
+</form>
