@@ -31,4 +31,22 @@ Example:
 The value attribute is important for the website to analyze the choice made by the user. 
 Also, it is required to have the name attribute be the same for all the radio input types for them to be treated as a group.
 
-3) 
+3) Input Type - Checkbox
+<input type="checkbox"> allows the user to select one or more options from a list of choices.
+The value attribute helps the website understand the user's choice and hence you should 
+remember to include them. If you don't include a value attribute for a particular input, the 
+website will assume it to be on.
+Example:
+<form>
+  <label>Fruits you like:</label>
+  <br>
+  <input type="checkbox" value="apple">
+  <label>Apple</label>
+  <br>
+  <input type="checkbox" value="banana">
+  <label>Banana</label>
+  <br>
+  <input type="checkbox" value="orange">
+  <label>Orange</label>
+  <br>
+</form>
