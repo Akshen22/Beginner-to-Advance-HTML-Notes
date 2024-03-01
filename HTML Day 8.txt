@@ -1,0 +1,34 @@
+1) Input Type - Reset
+The <input type="reset"> resets all the form data to their default values.
+Example:
+<form>
+  <label>Email:</label>
+  <input type="text" placeholder="smith@example.com">
+  <br>
+  <label>Password:</label>
+  <input type="password" >
+  <br>
+  <input type="submit">
+  <input type="reset">
+</form>
+
+2) Input Type - Radio
+<input type="radio"> is used to create a list from which the user can select one option.
+Example:
+<form>
+  <label>Can you vote?</label>
+  <br>
+  <input type="radio" value="no" name="vote">
+  <label>No</label>
+  <br>
+  <input type="radio" value="yes" name="vote">
+  <label>Yes</label>
+  <br>
+  <input type="radio" value="maybe" name="vote">
+  <label>Maybe!</label>
+</form>
+
+The value attribute is important for the website to analyze the choice made by the user. 
+Also, it is required to have the name attribute be the same for all the radio input types for them to be treated as a group.
+
+3) 
