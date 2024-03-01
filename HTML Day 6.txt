@@ -1,5 +1,4 @@
 1) button:
-
 <form id="form">
   <label>First Name:</label>
   <br>
@@ -8,7 +7,7 @@
   <button type="submit">Submit</button>
 </form>
 
-2) Button Type - Reset
+2) Button Type - Reset:
 A <button> element with the type attribute set as reset has a a special job: it helps to clear 
 the form.
 Example:
