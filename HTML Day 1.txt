@@ -41,7 +41,22 @@
   <li><p>Strawberry</p></li>
 </ol>
 
-8) Line break (br):
+8) 
+<h1>Box Office</h1>
+<h2>Movie list</h2>
+<ul>
+  <li>
+     <h3>Cinderella</h3>
+  </li>
+  <li>
+    <h3>Rapunzel</h3>
+  </li>
+  <li>
+     <h3>Snow White</h3>
+  </li>
+</ul>
+
+9) Line break (br):
 <h2>Address written with br tags in a p tag</h2>
 <p>
   Office #803, 8th Floor,<br>
