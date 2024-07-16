@@ -56,7 +56,23 @@
   </li>
 </ul>
 
-9) Line break (br):
+9)
+<h1>Food ordering</h1>
+
+<h2>What would you like to order?</h2>
+<ol>
+  <li>
+    <p>Pizza</p>
+  </li>
+  <li>
+    <p>Burger</p>
+  </li>
+  <li>
+    <p>Ice Cream</p>
+  </li>
+</ol>
+
+10) Line break (br):
 <h2>Address written with br tags in a p tag</h2>
 <p>
   Office #803, 8th Floor,<br>
