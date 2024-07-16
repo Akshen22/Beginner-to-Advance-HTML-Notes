@@ -1,3 +1,7 @@
+HTML: Structure/Layout
+CSS: Style
+JS: Logic
+
 1) Basic: 
 <h1>Hi</h1>
 
