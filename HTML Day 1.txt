@@ -72,7 +72,25 @@
   </li>
 </ol>
 
-10) Line break (br):
+10) div: used to group other HTML elements. This grouping helps maintain clarity and organization within the HTML document.
+<div>
+    <div>
+        <h1>The Himalayas</h1>
+        <p>
+        The Himalayas are a majestic mountain range in Asia, spanning five countries: India, Nepal, Bhutan, China, and Pakistan. They are home to the world's highest peaks, including Mount Everest.
+        </p>
+    </div>
+    <div>
+        <h2>Features of the Himalayas</h2>
+        <ul>
+            <li>Varied ecosystems from subtropical to alpine</li>
+            <li>Rich biodiversity with unique flora and fauna</li>
+            <li>Cultural diversity with Indigenous communities</li>
+        </ul>
+    </div>
+</div>
+
+11) Line break (br):
 <h2>Address written with br tags in a p tag</h2>
 <p>
   Office #803, 8th Floor,<br>
