@@ -8,12 +8,34 @@ We use alt in an img tag to describe the image. This is particularly useful in s
 <img src="broken-link.jpg" alt="The view from a plane">
 
 3) Links
-The <a> element is used to create a link to a web page. Here are some examples:
+The <a> element creates a link to a web page. Here are some examples:
 <p>
   <a href="https://en.wikipedia.org/wiki/Giant_panda">Giant Pandas are interesting!</a>
 </p>
 
-4) Creating links with HTML Elements
+4) Links: Target Attribute
+The target attribute specifies where the linked document will open.
+The target attribute accepts the following values:
+a) _self: This is the default value. It opens the linked document in the same window where the link was clicked.
+b) _blank: Opens the linked document in a new window or tab.
+
+<h1>BigBinary Blog</h1>
+<p>We craft blog posts about what we have learned so far and we have published 500+ blog posts about Ruby on Rails, ReactJS, React Native, open source, engineering & design.</p>
+<ul>
+  <!-- Link to Article 1 (Opens in the same tab) -->
+  <li>
+    <a href="https://www.bigbinary.com/blog/introducing-neeto-ui-v6" target="_self"> Introduction to NeetoUI v6
+    </a>
+  </li>
+
+  <!-- Link to Article 2 (Opens in a new tab) -->
+  <li>
+    <a href="https://www.bigbinary.com/blog/build-web-based-screen-recorder-loom-alternative-part-1" target="_blank"> Building a web-based screen recorder
+    </a>
+  </li>
+</ul>
+
+5) Creating links with HTML Elements
 <!-- Using Text as a Link -->
 <a href="https://www.bigbinary.com">Click here to visit Bigbinary website</a>
 <!-- Using p tag as a link -->
@@ -26,7 +48,7 @@ The <a> element is used to create a link to a web page. Here are some examples:
   <img src="https://ucarecdn.com/15521838-3dcc-4ed0-b066-6f7e2cd57f01/">
 </a>
 
-5) Attributes
+6) Attributes
 In the code example given below, we add this attribute to an <h1> element with the value The 
 web loves HTML. So, take your mouse cursor over the heading text in the result, and within a
 second, you'll see the title attribute in action.
@@ -38,7 +60,7 @@ If you take the cursor on the above output will see that "the web loves HTML"
 
 Similarly, for image: src, alt is the attribute, and for linking (a) it is href
 
-6) class & id attributes: (specifically for CSS & JavaScript)
+7) class & id attributes: (specifically for CSS & JavaScript)
 <p class="countries" id="malaysia">
   Malaysia
 </p>
