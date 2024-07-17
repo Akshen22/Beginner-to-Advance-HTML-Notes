@@ -132,3 +132,14 @@ The dataset property simplifies the process of working with data attributes in y
 
 <h1 id="order-number" data-order-number="1">Order No: 1</h1>
 <p id="order-item" data-item-code="5">Milk Tea</p>
+
+10) Void Elements:
+<br>
+<hr>
+<img src="image.jpg" alt="Image">
+<input type="text" placeholder="Enter your name">
+There's no closing tag: no </br>, </hr>, like: <h1></h1>
+
+2) Button Element
+The <button> element creates a clickable button.
+<button type="button">I am clickable!</button>
