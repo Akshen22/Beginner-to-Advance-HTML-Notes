@@ -114,3 +114,13 @@ In summary, `<p class="countries" id="malaysia">Malaysia</p>` creates a paragrap
 the class "countries" and the id "malaysia", displaying the text "Malaysia" as the content of 
 the paragraph. This element can be styled using CSS or targeted with JavaScript using its class 
 or id.
+
+8) Link to Parts of Same Page:
+Imagine a long page where you have read a lot and scrolled to the bottom. Wouldn't it be easy to return to the top without having to do all that scrolling again?
+
+For these purposes, we can use the a tag in the following manner:
+<h1 id="title">Geographical Concepts</h1>
+<a href="#country">Countries</a>
+<a href="#city-network">City Network</a>
+<a href="#micronation">Micronation</a>
+<h2 id="country">Countries</h2>
