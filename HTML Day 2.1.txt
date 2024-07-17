@@ -50,6 +50,35 @@ c) <!-- Using Images as a Link -->
   <img src="https://ucarecdn.com/15521838-3dcc-4ed0-b066-6f7e2cd57f01/">
 </a>
 
+EXAMPLE:
+<p>
+  <a href="https://courses.bigbinaryacademy.com/learn-html/" target="_blank"> Take a look at our basic HTML course
+  </a>
+</p>
+
+<p>Here are some other courses we offer</p>
+<ul>
+  <li>
+    <a href= "https://courses.bigbinaryacademy.com/learn-css/" target="_blank"> CSS
+    </a>
+  </li>
+  
+  <li>
+    <a href= "https://courses.bigbinaryacademy.com/learn-javascript/" target="_blank"> JavaScript
+    </a>
+  </li>
+  
+  <li>
+    <a href= "https://courses.bigbinaryacademy.com/learn-react/" target="_blank"> React
+    </a>
+  </li>
+  
+  <li>
+    <a href= "https://courses.bigbinaryacademy.com/learn-rubyonrails/" target="_blank"> Ruby on Rails
+    </a>
+  </li>
+</ul>
+
 6) Attributes
 In the code example given below, we add this attribute to an <h1> element with the value The 
 web loves HTML. So, take your mouse cursor over the heading text in the result, and within a
