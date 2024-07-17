@@ -124,3 +124,11 @@ For these purposes, we can use the a tag in the following manner:
 <a href="#city-network">City Network</a>
 <a href="#micronation">Micronation</a>
 <h2 id="country">Countries</h2>
+
+9) HTML Element.dataset:
+The dataset property simplifies the process of working with data attributes in your HTML, making it easier to access and manipulate them directly through JavaScript.
+
+<h1 id="fruit" data-fruit-name="orange">Orange</h1>
+
+<h1 id="order-number" data-order-number="1">Order No: 1</h1>
+<p id="order-item" data-item-code="5">Milk Tea</p>
