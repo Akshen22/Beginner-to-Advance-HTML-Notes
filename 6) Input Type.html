@@ -41,27 +41,6 @@ As can be seen from the example, we cannot add any content to the input element 
 not have a closing tag (</input>).
 But, in the button element with type="submit", we are free to add text, images, or even other 
 HTML elements (due to </button>).
-Example:
-<!-- Input element of Type Submit -->
-<form>
-  <label>Company Name:</label>
-  <br>
-  <input type="text" placeholder="BigBinary">
-  <br>
-  <input type="submit">
-</form>
-<br>
-
-<!-- Button element of Type Submit with HTML element -->
-<form>
-  <label>Name:</label>
-  <br>
-  <input type="text" placeholder="Sam Smith">
-  <br>
-  <button type="submit">
-    <img src="https://ucarecdn.com/5a920084-5779-494d-9ee2-533bbb6d6c97/-/resize/60x60/">
-  </button>
-</form>
 
 5) Input Type - Reset
 The <input type="reset"> resets all the form data to their default values.
@@ -129,5 +108,16 @@ Let us have a look at an example:
 </form>
 This input type has an in-built validation. This prevents users from adding values that are not 
 in the correct email format.
-For example, Correct email format: abc@example.com Incorrect email format: is hello.com
-Input
+For example, the correct email format: abc@example.com Incorrect email format: is hello.com
+Input.
+
+10) Input Type - Date:
+<input type= "date"> creates input fields that let the user enter a date.
+The input field contains a textbox that validates the input and a date picker.
+The format for adding dates is yyyy-mm-dd.
+Example:
+<form>
+  <label for="birth-date">Birthday:</label>
+  <input type="date" min="1950-01-01" max="2000-01-01" placeholder="YYYY-MM-DD"><br>
+  <button>Submit</button>
+</form>
