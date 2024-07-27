@@ -31,7 +31,7 @@ Example:
   <input type="submit" >
 </form>
 
-4) Difference between Input Type - Submit and Button Type - Submit
+4) Difference between Input Type - Submit and Button Type - Submit:
 In HTML forms, there are two common ways to create submission buttons <input type="submit"> and 
 <button type="submit">.
 Both types of buttons will have the default behavior of submitting the form data when they are 
@@ -42,7 +42,7 @@ not have a closing tag (</input>).
 But, in the button element with type="submit", we are free to add text, images, or even other 
 HTML elements (due to </button>).
 
-5) Input Type - Reset
+5) Input Type - Reset:
 The <input type="reset"> resets all the form data to their default values.
 Example:
 <form>
@@ -54,7 +54,7 @@ Example:
   <input type="reset">
 </form>
 
-6) Input Type - Radio
+6) Input Type - Radio:
 <input type="radio"> is used to create a list from which the user can select one option (MCQ's).
 Example:
 <form>
@@ -74,7 +74,7 @@ The value attribute is important for the website to analyze the choice made by t
 Also, it is required to have the name attribute be the same for all the radio input types for 
 them to be treated as a group.
 
-7) Input Type - Checkbox
+7) Input Type - Checkbox:
 <input type="checkbox"> a multiple MCQ type question, where one can select more than 2 options.
 Example:
 <form>
@@ -91,14 +91,14 @@ Example:
   <br>
 </form>
 
-8) Input Type - Button
+8) Input Type - Button:
 <input type="button"> creates a clickable button.
 Example:
 <form>
   <input type="button" value="Click Me!">
 </form>
 
-9) Input Type - Email
+9) Input Type - Email:
 The <input type="email"> defines a field for an e-mail address.
 Let us have a look at an example:
 <form>
@@ -131,3 +131,17 @@ Example:
   <br>
   <button>Submit</button>
 </form>
+
+12) Input Type - File:
+The <input type="file"> element defines a file-select field along with a "Browse" button.
+This element lets the user choose files from their device's storage.
+
+Example:
+<form>
+  <input type="file" accept="image/png, image/jpeg" placeholder="image.png/image.jpeg" multiple><br>
+  <button>Submit</button>
+</form>
+
+In the above  example, inputs of type file also support the following attributes:
+The "accept attribute" is a string that defines the file types this input should accept.
+To define a file-select field that allows multiple files to be selected, add the multiple attribute.
