@@ -72,29 +72,29 @@ Example:
   </fieldset>
 </form>
 
-4) Legend Element - Fieldset
-The <legend> element is usually used inside a <fieldset> element.
-It provides a title for the group of form elements inside the fieldset.
+4) Fieldset
+The <fieldset> element is used to group related form elements.
 Example:
 <form>
-  <label>Name:</label>
-  <br>
-  <input placeholder="Sam Smith">
-  <br>
-  <fieldset>
-    <legend>Shipping Address</legend>
-    <label>Apartment/Block:</label>
-    <br>
-    <input placeholder="Office #803, 8th Floor, World Trade Center, Tower 2, Kharadi">
-    <br>
+  <label>First Name:</label>
+  <input placeholder="Sam" >
+
+  <label>Last Name:</label>
+  <input placeholder="Smith" >
+
+  <fieldset disabled>
     <label>City:</label>
     <br>
     <input placeholder="Pune" >
     <br>
+
     <label>State:</label>
     <br>
     <input placeholder="Maharashtra" >
     <br>
+
+    <label>Country:</label>
+    <br>
+    <input placeholder="India" >
   </fieldset>
-  <input type="submit">
 </form>
