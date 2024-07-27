@@ -18,9 +18,18 @@ Example:
   <input> (by default it is in text form)
 </form>      
 
-4) The entire code will have only one <form></form>.
+4) Placeholder:
+Placeholder text is the text that appears in an input field before the user clicks it and 
+starts typing. Placeholder text disappears as soon as the user starts typing.
+Example:
+<form>
+  <label>Full Name:</label>
+  <input placeholder= "Sam Smith">
+</form>  
 
-HTML Form Restrictions - Elements to avoid
+5) The entire code will have only one <form></form>.
+
+6) HTML Form Restrictions - Elements to avoid
 Avoid using the following HTML elements directly inside a <form>:
 p, h1 to h6, a
 Let us take a look at an incorrect form structure example:
@@ -54,43 +63,7 @@ Let us have a look at the same example with the correct form structure:
   <button type="submit">Submit</button>
 </form>
 
-2) Label Element:
-The <label> element puts a label on other form elements. In the example given below, <label> 
-helps the user understand the purpose of the <input> element.
-Example:
-<form>
-  <label>Name:</label>
-  <input>
-</form>
-
-3) Placeholder:
-Placeholder text is the text that appears in an input field before the user clicks it and 
-starts typing. Placeholder text disappears as soon as the user starts typing.
-Example:
-<form>
-  <label>Full Name:</label>
-  <input placeholder="Sam Smith">
-</form>
-
-4) Placeholder vs Label:
-In HTML forms, placeholders are often used to give users a hint or an example of what should be 
-entered in the respective input field.
-While labels are used to add a label or short description to an input field.
-Example:
-<h2>Sign up</h2>
-<form>
-  <label>First Name:</label>
-  <input placeholder="Sam"><br>
-  <label>Last Name: </label>
-  <input placeholder="Smith"><br>
-  <label>Date of Birth:</label>
-  <input placeholder="DD/MM/YYYY"><br>
-  <h4>Credit Card Information:</h4>
-  <label>Credit Card Number:</label>
-  <input placeholder="1234 5678 9012 3456"><br>
-</form>
-
-5) Textarea Element:
+7) Textarea Element:
 The <textarea> element is for submitting large textual content.
 To control its size, the rows and cols attributes are utilized.
 Example:
@@ -102,7 +75,7 @@ Example:
   </textarea>
 </form>
 
-6) Select Element:
+8) Select Element:
 For creating drop-down lists in our forms, we use the <select> element.
 Example:
 <form>
