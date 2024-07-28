@@ -1,0 +1,30 @@
+1) <!DOCTYPE>: 
+A special element that is added only at the top of the document. It provides information about the type of HTML used in the document. 
+Syntax:
+<!DOCTYPE html>
+
+2) The HTML Element: 
+The <html> element is the main element, which acts as the container for all the other elements, except the <!DOCTYPE> element. 
+The <head> and <body> elements are placed inside the <html> element.
+Syntax:
+<!DOCTYPE html>
+<html>
+</html>
+
+3) Declaring Language:
+We should always use the language attribute in the <html> tag to declare the language of the Web page. 
+This helps search engines deliver relevant content and browsers translate or style snippets of text accordingly.
+The language property is inherited by all the children underneath it. 
+Thus, adding the tag to the <body> element means the text in the head won't be covered.
+Syntax: We can specify English as the language, like this:
+<!DOCTYPE html>
+<html language="en">
+  <body>
+    <!-- rest of the content -->
+  </body>
+</html>
+
+4) If the page contains content in a different language, just add the language attribute to an element surrounding that content like this:
+<p>This is <span language="fr">une baguette française</span></p>
+<p>This is <span language="de">eine deutsche Wurst</span></p>
+<p>This is <span language="hi">एक भारतीय मिठाई</span></p>
