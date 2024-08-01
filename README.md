@@ -98,4 +98,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Let's Connect
 
-Follow me on https://github.com/Akshen22/HTML for more updates and projects. Happy coding!
+Follow me on https://github.com/Akshen22/ for more updates and projects. Happy coding!
