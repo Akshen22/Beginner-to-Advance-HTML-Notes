@@ -2,7 +2,7 @@
 a) A <picture> tag can give developers flexibility for working with images.
 b) The <source> tag is used to specify the available file sources, it is used in <picture>, <audio>, and <video> tags as well.
 
-Example: 
+Example 1: 
 <picture>
   <source media="(max-width: 550px)" srcset="https://upload.wikimedia.org/wikipedia/commons/4/41/Colibr%C3%AD_Cola_de_Oro_%28Golden-tailed_Sapphire_Hummingbird%29_Bigger_File.jpg">
   <source media="(max-width: 780px)" srcset="https://upload.wikimedia.org/wikipedia/commons/1/14/RubyThroatedHummingbird.jpg">
@@ -12,3 +12,22 @@ Example:
 In the above example, we have 3 different bird images. The first one will be displayed when the available width is 0 pixels to 550 pixels. 
 The second image is displayed when the available width is 551 pixels to 780 pixels.
 Depending on the width of the screen, the image with the best-suited resolution gets rendered.
+
+Example 2:
+<picture>
+  <img
+  src="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/cat-image_UWjT0OwWf.jpg"
+  alt="a cat lying"
+  width="300"
+  height="200"
+  loading="lazy"
+  decoding="async">
+  <source srcset="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/cat-image_6-z1w9nxo.avif" type="image/avif">
+  <source srcset="https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/cat-image_UWjT0OwWf.jpg" type="image/webp">
+</picture>
+
+New image formats like avif and webp are not supported by old browsers. Here the browser renders the first supported image file format it encounters. 
+Thus, having multiple source files also ensures the older browsers are also supported.
+
+  
+  
