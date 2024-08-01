@@ -1,4 +1,4 @@
-*Render image:
+* Render image:
 a) A <picture> tag can give developers flexibility for working with images; small screen: small pic, medium screen: medium image, large: large.
 b) The <source> tag is used to specify the available file sources, it is used in <picture>, <audio>, and <video> tags as well.
 
@@ -27,7 +27,18 @@ Example 2:
 </picture>
 
 New image formats like avif and webp are not supported by old browsers. Here the browser renders the first supported image file format it encounters. 
-Thus, having multiple source files also ensures the older browsers are also supported.
+Thus, having multiple source files also ensures that older browsers are also supported.
 
+* Audio:
+A <audio> tag simply creates a player on a webpage to play audio files of various formats, like wav, ogg and mp3.
+There are few important attributes of a <audio> tag:
+src: This attribute accepts a valid URL specifying the content source as a string.
+controls: We must provide the controls attribute for player to get displayed. As by default <audio> player remains invisible.
+autoplay: autoplay is used to play the audio automatically as soon as the page loads.
+muted: This loads the player with the audio muted.
+loop: Plays the audio on a loop, unless paused.
   
+Example: 
+<audio src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Hip_hop_Beatmix.ogg" controls autoplay muted loop></audio>
+
   
