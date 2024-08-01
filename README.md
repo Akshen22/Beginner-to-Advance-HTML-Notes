@@ -81,6 +81,7 @@ Practice your HTML skills with real-world project ideas and examples. This secti
 
 Expand your HTML knowledge with these valuable resources:
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Big Binary Academy](https://courses.bigbinaryacademy.com/learn-html/)
 - [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
 - [HTML5 Rocks](https://www.html5rocks.com/en/)
 - [Can I Use](https://caniuse.com/)
@@ -97,4 +98,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Let's Connect
 
-Follow us on https://github.com/Akshen22/HTML for more updates and projects. Happy coding!
+Follow me on https://github.com/Akshen22/HTML for more updates and projects. Happy coding!
