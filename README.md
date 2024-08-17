@@ -6,16 +6,16 @@ Welcome to the ultimate beginner's guide to HTML! This repository contains caref
 
 ## Table of Contents 📚
 
-1. [Elements](#elements) 🔤
-2. [Elements with Attributes](#elements-with-attributes) ⚙️
-3. [Table Element](#table-element) 📊
-4. [Form Elements](#form-elements) 📝
-5. [Input Types](#input-types) 🔣
-6. [Basic Structure](#basic-structure) 🏗️
-7. [Projects](#projects) 🛠️
-8. [Semantic HTML](#semantic-html) 🏷️
-9. [Media](#media) 🎥
-10. [Uncommon Elements and Attributes](#uncommon-elements-and-attributes) 🔍
+1. Elements 🔤
+2. Elements with Attributes ⚙️
+3. Table Element 📊
+4. Form Elements 📝
+5. Input Types 🔣
+6. Basic Structure 🏗️
+7. Projects 🛠️
+8. Semantic HTML) 🏷️
+9. Media 🎥
+10. Uncommon Elements and Attributes 🔍
 
 ---
 
