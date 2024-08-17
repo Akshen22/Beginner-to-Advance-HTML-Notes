@@ -13,7 +13,7 @@ Welcome to the ultimate beginner's guide to HTML! This repository contains caref
 5. Input Types 🔣
 6. Basic Structure 🏗️
 7. Projects 🛠️
-8. Semantic HTML) 🏷️
+8. Semantic HTML 🏷️
 9. Media 🎥
 10. Uncommon Elements and Attributes 🔍
 
