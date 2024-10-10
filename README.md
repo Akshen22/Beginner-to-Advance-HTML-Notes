@@ -66,13 +66,13 @@ Explore some unique HTML elements and attributes that aren't commonly used but c
 To get started with this HTML syllabus, clone this repository:
 
 ```bash
-git clone https://github.com/Akshen22/HTML
+git clone https://github.com/Akshen22/Beginner-to-Advance-HTML-Notes.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd HTML
+cd Beginner-to-Advance-HTML-Notes
 ```
 
 Open the `https://bigbinary-academy.neetocode.com/` site in your browser to start coding!
